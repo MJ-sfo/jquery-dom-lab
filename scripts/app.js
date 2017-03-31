@@ -4,8 +4,10 @@ $( document ).ready(function whenLoaded(){
 
   // Your jQuery here
   // 1. Get the value "Hello There".
+  var getText = $('#greeting').val();
 
   // 2. Change (or set) the value to "Hola".
+  $('#greeting').text("Hola");
 
   // 3. Add an h1 to the page that says "A Spanish Greeting".
 
